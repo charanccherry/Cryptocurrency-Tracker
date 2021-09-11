@@ -1,0 +1,37 @@
+.crypto-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: 5px solid #00e7ff;
+  border-radius: 10px;
+  margin: 50px;
+  width: 50vw;
+}
+.header {
+  background-color: #00e7ff33;
+  height: 10vh;
+  width: 50vw;
+  display: flex;
+  padding: 20px;
+  border-radius: 1px;
+  justify-content: space-between;
+}
+.crypto-text {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-right: 15px;
+}
+.coin-values {
+  display: flex;
+  justify-content: space-between;
+}
+.crypto-details-list {
+  list-style-type: none;
+}
+.loader {
+  text-align: center;
+  font-size: 150px;
+}
